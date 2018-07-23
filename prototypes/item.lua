@@ -67,5 +67,16 @@ data:extend({
     icon_size = 128,
     subgroup = "result-box",
     order = "c"
+  },
+  {
+    type = "item",
+    name = "packing-machine",
+    icon = "__thecomb-spaceContracts__/graphics/entity/packing-machine-icon.png",
+    flags = { "goes-to-quickbar" },
+    stack_size = 10,
+    icon_size = 128,
+    subgroup = "packing-machines",
+    order = "a",
+    place_result = "packing-machine"
   }
 })

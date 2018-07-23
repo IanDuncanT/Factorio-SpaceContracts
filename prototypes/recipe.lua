@@ -20,7 +20,7 @@ data:extend({
     energy_required = 30,
     enabled = false,
     ingredients = {
-      {"iron-plate", 100000}
+      {"iron-plate", 32768}
     },
     results = {
       {"iron-pack", 1}
@@ -34,7 +34,7 @@ data:extend({
     energy_required = 30,
     enabled = false,
     ingredients = {
-      {"copper-plate", 100000}
+      {"copper-plate", 32768}
     },
     results = {
       {"copper-pack", 1}
@@ -83,4 +83,17 @@ data:extend({
     },
     main_product = "coin"
   },
+  {
+    type = "recipe",
+    name = "packing-machine",
+    category = "crafting",
+    energy_required = 20,
+    enabled = false,
+    ingredients = {
+      {"iron-plate", 17},
+      {"copper-plate", 23},
+      {"steel-plate", 5}
+    },
+    result = "packing-machine"
+  }
 })

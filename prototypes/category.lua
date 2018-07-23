@@ -14,12 +14,18 @@ data:extend({
     type = "item-subgroup",
     name = "ingredient-box",
     group = "space-contracts",
-    order = "a"
+    order = "b"
   },
   {
     type = "item-subgroup",
     name = "result-box",
     group = "space-contracts",
-    order = "b"
+    order = "c"
   },
+  {
+    type = "item-subgroup",
+    name = "packing-machines",
+    group = "space-contracts",
+    order = "a"
+  }
 })

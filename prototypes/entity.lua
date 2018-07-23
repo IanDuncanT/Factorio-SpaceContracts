@@ -18,6 +18,7 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
+    order = "a",
     alert_icon_shift = util.by_pixel(-3, -12),
     animation = {
       layers = {

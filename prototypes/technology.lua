@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "space-contracts",
     icon_size = 128,
-    icon = "__thecomb-spaceContracts__/graphics/technology/space-contracts.png",
+    icon = "__thecomb-spaceContracts__/graphics/technology/space-contract.png",
     effects =
     {
       {
@@ -17,6 +17,22 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "copper-pack"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "packing-machine"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "stone-wall-result"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "iron-result"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "copper-result"
       }
     },
     prerequisites = {"rocket-silo"},
