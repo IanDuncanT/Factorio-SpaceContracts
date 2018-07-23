@@ -7,7 +7,7 @@ data:extend({
     type = "item-group",
     name = "space-contracts",
     order = "ld",
-    icon = "__thecomb-spaceContracts__/graphics/category/space-contract.png",
+    icon = "__thecomb-spaceContracts__/graphics/technology/space-contract.png",
 	icon_size = 128,
   },
   {

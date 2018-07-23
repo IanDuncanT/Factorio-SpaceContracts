@@ -10,7 +10,8 @@ data:extend({
     },
     results = {
       {"stone-wall-pack", 1}
-    }
+    },
+    main_product = "stone-wall-pack"
   },
   {
     type = "recipe",
@@ -23,7 +24,8 @@ data:extend({
     },
     results = {
       {"iron-pack", 1}
-    }
+    },
+    main_product = "iron-pack"
   },
   {
     type = "recipe",
@@ -36,7 +38,8 @@ data:extend({
     },
     results = {
       {"copper-pack", 1}
-    }
+    },
+    main_product = "copper-pack"
   },
   {
     type = "recipe",
@@ -49,7 +52,8 @@ data:extend({
     },
     results = {
       {"coin", 10}
-    }
+    },
+    main_product = "coin"
   },
   {
     type = "recipe",
@@ -62,7 +66,8 @@ data:extend({
     },
     results = {
       {"coin", 10}
-    }
+    },
+    main_product = "coin"
   },
   {
     type = "recipe",
@@ -75,6 +80,7 @@ data:extend({
     },
     results = {
       {"coin", 10}
-    }
+    },
+    main_product = "coin"
   },
 })

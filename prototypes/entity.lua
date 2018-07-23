@@ -2,7 +2,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "packing-machine",
-    icon = "__thecomb-spaceContracts__/graphics/items/packing-machine.png",
+    icon = "__thecomb-spaceContracts__/graphics/entity/packing-machine-icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "packing-machine"},
@@ -22,48 +22,18 @@ data:extend({
     animation = {
       layers = {
         {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+          filename = "__thecomb-spaceContracts__/graphics/entity/packing-machine.png",
           priority="high",
-          width = 108,
-          height = 114,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 2),
+          width = 128,
+          height = 128,
           hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1.png",
+            filename = "__thecomb-spaceContracts__/graphics/entity/hr-packing-machine.png",
             priority="high",
-            width = 214,
-            height = 226,
-            frame_count = 32,
-            line_length = 8,
-            shift = util.by_pixel(0, 2),
-            scale = 0.5
+            width = 256,
+            height = 256
           }
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-          priority="high",
-          width = 95,
-          height = 83,
-          frame_count = 1,
-          line_length = 1,
-          repeat_count = 32,
-          draw_as_shadow = true,
-          shift = util.by_pixel(8.5, 5.5),
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1-shadow.png",
-            priority="high",
-            width = 190,
-            height = 165,
-            frame_count = 1,
-            line_length = 1,
-            repeat_count = 32,
-            draw_as_shadow = true,
-            shift = util.by_pixel(8.5, 5),
-            scale = 0.5
-          }
-        },
-      },
+        }
+      }
     },
     crafting_categories = {"packing-machine"},
     crafting_speed = 0.5,
