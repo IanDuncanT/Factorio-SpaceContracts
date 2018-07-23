@@ -40,7 +40,7 @@ data:extend({
     type = "item",
     name = "stone-wall-result",
     icon = "__thecomb-spaceContracts__/graphics/items/stone-wall-result.png",
-    flags = { "goes-to-main-inventory" }
+    flags = { "goes-to-main-inventory" },
     stack_size = 10,
     icon_size = 128,
     subgroup = "result-box",
@@ -51,7 +51,7 @@ data:extend({
     type = "item",
     name = "iron-result",
     icon = "__thecomb-spaceContracts__/graphics/items/iron-result.png",
-    flags = { "goes-to-main-inventory" }
+    flags = { "goes-to-main-inventory" },
     stack_size = 10,
     icon_size = 128,
     subgroup = "result-box",
@@ -62,7 +62,7 @@ data:extend({
     type = "item",
     name = "copper-result",
     icon = "__thecomb-spaceContracts__/graphics/items/copper-result.png",
-    flags = { "goes-to-main-inventory" }
+    flags = { "goes-to-main-inventory" },
     stack_size = 10,
     icon_size = 128,
     subgroup = "result-box",
