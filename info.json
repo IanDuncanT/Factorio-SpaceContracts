@@ -1,0 +1,13 @@
+{
+  "name": "thecomb-spaceContracts",
+  "version": "0.1.0",
+  "factorio_version": "0.16",
+  "title": "Space Contracts",
+  "author": "TheCombinator",
+  "contact": "CombinatorMasterRace@gmail.com",
+  "homepage": "",
+  "description": "Within this mod is a series of contracts for rewards when item boxes are sent into space.",
+  "dependencies":[
+    "base >= 0.16.0",
+  ]
+}
