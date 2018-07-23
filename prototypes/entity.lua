@@ -26,11 +26,13 @@ data:extend({
           priority="high",
           width = 128,
           height = 128,
+          frame_count = 1,
           hr_version = {
             filename = "__thecomb-spaceContracts__/graphics/entity/hr-packing-machine.png",
             priority="high",
             width = 256,
-            height = 256
+            height = 256,
+            frame_count = 1
           }
         }
       }
